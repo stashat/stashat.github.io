@@ -720,12 +720,22 @@ body{
 }
 .sponsormargin{
     margin: 0;
-    max-width: 30%;
+    max-width: 50%;
 }
 .footer{
     flex-direction: column;
 }
 .footer2{
     margin: 0;
+}
+.section91{
+    flex-direction: column;
+}
+.section9text{
+    font-size: 15pt;
+}
+.textsection9{
+    justify-content: center;
+    text-align: center;
 }
 }
