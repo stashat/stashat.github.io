@@ -9,7 +9,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
 header{
     flex-wrap:wrap;
     margin-top: 20px;
@@ -222,6 +221,12 @@ header{
     background: linear-gradient(#FF8088 0%, #984141 40%);
 }
 .title4{
+    color: #5A5454;
+    font-size: 22pt;
+    font-family: lato;
+    font-weight: bold;
+}
+.title5{
     color: #5A5454;
     font-size: 22pt;
     font-family: lato;
@@ -647,14 +652,14 @@ body{
 }
 .section3{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     text-align: center;
 }
 .image2{
-    width: 70%;;
+    width: 90%;;
 }
 .section4{
     flex-direction: column;
@@ -666,5 +671,61 @@ body{
 }
 .section4_text{
     margin-right: 0;
+}
+.boxes{
+    flex-direction: column;
+}
+.section5{
+    margin-top: 30px;
+}
+.center{
+    margin: 20px;
+}
+.title4{
+    font-size: 30pt;
+}
+.title5{
+    font-size: 30pt;
+}
+.text6{
+    margin-bottom: 50px;
+}
+.over_picture{
+    right: 48%;
+    bottom: 58%;
+}
+.section61{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text65{
+    margin: 0;
+    font-size: 15pt;
+}
+.section7{
+    flex-direction: column;
+    padding: 0;
+    margin-top: 50px;
+}
+.image3{
+    display: none;
+}
+.sponsors{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponsormargin{
+    margin: 0;
+    max-width: 30%;
+}
+.footer{
+    flex-direction: column;
+}
+.footer2{
+    margin: 0;
 }
 }
